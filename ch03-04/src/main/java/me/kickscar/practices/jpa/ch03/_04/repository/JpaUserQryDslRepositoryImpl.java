@@ -1,16 +1,16 @@
-package me.kickscar.practices.jpa03.model03.repository;
+package me.kickscar.practices.jpa.ch03._04.repository;
 
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import me.kickscar.practices.jpa03.model03.domain.Orders;
-import me.kickscar.practices.jpa03.model03.domain.User;
-import me.kickscar.practices.jpa03.model03.dto.UserDto;
+import me.kickscar.practices.jpa.ch03._04.domain.Orders;
+import me.kickscar.practices.jpa.ch03._04.domain.User;
+import me.kickscar.practices.jpa.ch03._04.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 
 import java.util.List;
 
-import static me.kickscar.practices.jpa03.model03.domain.QUser.user;
+import static me.kickscar.practices.jpa.ch03._04.domain.QUser.user;
 
 public class JpaUserQryDslRepositoryImpl extends QuerydslRepositorySupport implements JpaUserQryDslRepository {
 

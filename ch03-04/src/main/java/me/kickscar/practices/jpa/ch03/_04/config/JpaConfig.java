@@ -1,4 +1,4 @@
-package me.kickscar.practices.jpa03.model03.config;
+package me.kickscar.practices.jpa.ch03._04.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +22,7 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 // JPA Repositories 활성화: (JpaRepository 인터페이스를 상속받은 Repository Interface)에 대한 구현체 생성을 애플리케이션 실행 시점에 Spring Data JPA가 자동으로 한다.
-@EnableJpaRepositories(basePackages = { "me.kickscar.practices.jpa03.model03.repository" })
+@EnableJpaRepositories(basePackages = { "me.kickscar.practices.jpa.ch03._04.repository" })
 public class JpaConfig {
 
     @PersistenceContext
@@ -70,7 +70,7 @@ public class JpaConfig {
         // Connection Pool DataSource(H2Database)
         em.setDataSource(dataSource());
         // 엔티티(@Entity) 탐색 시작 위치
-        em.setPackagesToScan(new String[] { "me.kickscar.practices.jpa03.model03.domain" });
+        em.setPackagesToScan(new String[] { "me.kickscar.practices.jpa.ch03._04.domain" });
         // 하이버네이트 구현체 사용
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);

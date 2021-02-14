@@ -1,8 +1,8 @@
-package me.kickscar.practices.jpa03.model03.repository;
+package me.kickscar.practices.jpa.ch03._04.repository;
 
-import me.kickscar.practices.jpa03.model03.domain.Orders;
-import me.kickscar.practices.jpa03.model03.domain.User;
-import me.kickscar.practices.jpa03.model03.dto.UserDto;
+import me.kickscar.practices.jpa.ch03._04.domain.Orders;
+import me.kickscar.practices.jpa.ch03._04.domain.User;
+import me.kickscar.practices.jpa.ch03._04.dto.UserDto;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package me.kickscar.practices.jpa03.model03.repository;
+package me.kickscar.practices.jpa.ch03._04.repository;
 
 import com.querydsl.core.types.OrderSpecifier;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.PathBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import me.kickscar.practices.jpa03.model03.domain.Orders;
-import me.kickscar.practices.jpa03.model03.dto.OrderCountOfUserDto;
+import me.kickscar.practices.jpa.ch03._04.domain.Orders;
+import me.kickscar.practices.jpa.ch03._04.dto.OrderCountOfUserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport
 
 import java.util.List;
 
-import static me.kickscar.practices.jpa03.model03.domain.QOrders.orders;
+import static me.kickscar.practices.jpa.ch03._04.domain.QOrders.orders;
 
 public class JpaOrdersQryDslRepositoryImpl extends QuerydslRepositorySupport implements JpaOrdersQryDslRepository {
 

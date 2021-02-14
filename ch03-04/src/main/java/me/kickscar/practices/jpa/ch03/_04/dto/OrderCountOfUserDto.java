@@ -1,4 +1,4 @@
-package me.kickscar.practices.jpa03.model03.dto;
+package me.kickscar.practices.jpa.ch03._04.dto;
 
 public class OrderCountOfUserDto {
     private Long userNo;

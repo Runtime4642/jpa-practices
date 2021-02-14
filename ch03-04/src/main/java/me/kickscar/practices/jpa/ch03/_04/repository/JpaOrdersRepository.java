@@ -1,6 +1,6 @@
-package me.kickscar.practices.jpa03.model03.repository;
+package me.kickscar.practices.jpa.ch03._04.repository;
 
-import me.kickscar.practices.jpa03.model03.domain.Orders;
+import me.kickscar.practices.jpa.ch03._04.domain.Orders;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 

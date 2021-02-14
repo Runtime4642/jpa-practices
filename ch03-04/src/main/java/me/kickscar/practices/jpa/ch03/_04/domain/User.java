@@ -1,4 +1,4 @@
-package me.kickscar.practices.jpa03.model03.domain;
+package me.kickscar.practices.jpa.ch03._04.domain;
 
 import javax.persistence.*;
 import java.util.ArrayList;

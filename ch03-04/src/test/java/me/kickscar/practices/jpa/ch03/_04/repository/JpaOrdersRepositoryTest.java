@@ -1,11 +1,11 @@
-package me.kickscar.practices.jpa03.model03.repository;
+package me.kickscar.practices.jpa.ch03._04.repository;
 
-import me.kickscar.practices.jpa03.model03.config.JpaConfig;
-import me.kickscar.practices.jpa03.model03.domain.GenderType;
-import me.kickscar.practices.jpa03.model03.domain.Orders;
-import me.kickscar.practices.jpa03.model03.domain.RoleType;
-import me.kickscar.practices.jpa03.model03.domain.User;
-import me.kickscar.practices.jpa03.model03.dto.OrderCountOfUserDto;
+import me.kickscar.practices.jpa.ch03._04.config.JpaConfig;
+import me.kickscar.practices.jpa.ch03._04.domain.GenderType;
+import me.kickscar.practices.jpa.ch03._04.domain.Orders;
+import me.kickscar.practices.jpa.ch03._04.domain.RoleType;
+import me.kickscar.practices.jpa.ch03._04.domain.User;
+import me.kickscar.practices.jpa.ch03._04.dto.OrderCountOfUserDto;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
