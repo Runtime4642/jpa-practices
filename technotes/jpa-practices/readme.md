@@ -1,3 +1,5 @@
+readme
+
 # JPA Practices
 
 ## ch01. Entity Mapping
