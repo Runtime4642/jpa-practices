@@ -1,7 +1,5 @@
 configuration
 
-configuration
-
 # 예제 프로젝트 실행/테스트 환경 설정
 
 ## 1. IntelliJ IDEA(on Mac)
